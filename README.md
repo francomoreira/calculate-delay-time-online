@@ -10,6 +10,6 @@ Proyecto sencillo de práctica JavaScript en el que se calcula de manera sencill
 
 ## **Link:**
 
-### [https://calculate-delay-time.netlify.app/]()
+### [Calculate you delay here!](https://calculate-delay-time.netlify.app/)
 
 ![](https://imgur.com/0WFVWKsl.png)
