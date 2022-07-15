@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+*
+{
+    margin: 0px;
+
+}
+
+body
+{
+    background: #5F3F8C;
+    background: linear-gradient(to right, #5F3F8C , #705CF2);
+    min-height: 90vh;
+    position: relative;
+}
+
+div.encabezado
+{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    background: #55D9CC;
+    background: linear-gradient(to right, #15859e, #33d8eb);
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.485);
+    height: 800%;
+    font-family: 'ubuntu';
+    padding: 1rem;
+    padding-left: 2rem;
+    color: #ffffffda;
+    font-size: 0.8rem;
+}
+
+section
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: black; */
+    padding: 0px;
+}
+
+    div.calculator
+    {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        max-width: 400px;
+        border-radius: 1rem; 
+        background-color: #D9D9D9;
+        background: linear-gradient(to right, #D9D9D9 , #cfcdcd );
+        color: #414141;
+        font-family: 'Roboto', sans-serif;
+        margin-top: 2%;
+        margin: 5%;
+        padding: 3%;
+        box-shadow: 1px 1px 0px rgba(116, 113, 113, 0.9),
+            2px 2px 0px rgba(116, 113, 113, 0.8),
+            3px 3px 0px rgba(116, 113, 113, 0.7),
+            4px 4px 0px rgba(116, 113, 113, 0.6),
+            5px 5px 0px rgba(116, 113, 113, 0.5),
+            15px 10px 5px rgba(0, 0, 0, 0.068);
+        
+        
+    }
+
+        div.container
+        {   
+            display: flex;
+            flex-direction: column;
+            /* border: 2px dotted red; */
+        }
+
+            
+              
+
+                button, input
+                {
+                    font-family: 'Ubuntu', sans-serif;
+                    color: black;
+                    border-radius: 10px;
+                    border: 0px;
+                }
+
+                input#bpm
+                {
+                    background-color: #95AB57;
+                    background: linear-gradient(to right, #95AB57, rgb(134, 180, 27) );
+                    font-size: 0.6rem;
+                    color: #566333;
+                    font-family: 'Press Start 2P', cursive;
+                    width: 94%;
+                    height: 80px;
+                    margin-bottom: 0.8rem;
+                    padding-left: 1rem;
+                    box-shadow:inset 5px 2px 5px rgba(0, 0, 0, 0.551);
+                }
+
+                form div.botones
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    /* border:2px dotted red; */
+                    margin-top: 2%;
+                }
+
+                    input#calcular-boton, button 
+                    {
+                        background-color: #CC456E;
+                        background: linear-gradient(to right, #e4527e, #c43a63 );
+                        width: 40%;
+                        height: 1.5rem;
+                        margin-bottom: 5%;
+                        font-family: 'Press Start 2P', cursive;
+                        font-size: 0.6rem;
+                        color: rgba(0, 0, 0, 0.789);
+                        box-shadow: 3px 3px 0px rgba(77, 75, 75, 0.74),
+                            2px 2px 0px rgba(77, 75, 75, 0.904);
+                    }
+
+                
+
+                
+
+
+
+        div.resultados 
+        {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            /* background-color: bisque; */
+            /* border:5px dotted red; */
+        }
+
+            div.card
+            {
+                display: flex;
+                flex-direction: column;
+                /* border:2px dotted red; */
+                padding-left: 2%;
+
+            }
+
+footer
+{   
+    display: flex;
+    /* flex-direction: column; */
+    padding-top: 0.5rem;
+    justify-content: center;
+    margin: 0%;
+    position: absolute;
+    /* bottom: -4rem; */
+    bottom: -10vh;
+    width: 100%;
+    max-height: 3.2rem;
+    background: #1D3159;
+    background: linear-gradient(to right, #1D3159, #14B5D9);
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.24);
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/Play.ico">
+    <title>Calcula fácilmente el delay con tu bpm!</title>
+</head>
+<body>
+    <div class="encabezado">
+        <h1>Calcula el tiempo de delay para tu canción 🥁 </h1>
+    </div>
+    <section>
+        <div class="calculator">
+            <!-- formularios -->
+            <div class="container">
+                <form class="formulario">
+                    <input id='bpm' type="number" placeholder=">>Insert here you BPM" />
+                    <div class="botones">
+                        <input id='calcular-boton' onclick="calculo()" type="button" value="Calcular">
+                        <button type="reset">x</button>
+                    </div>
+                </form>
+            </div>
+            <!-- imprimir resultados -->
+            <div class="resultados">
+                <div class="card">
+                    <p>Tú 1/1 es de: <label id="uno"></label></p>
+                    <p>Tú 1/2 es de: <label id="dos"></label></p>
+                    <p>Tú 1/4 es de: <label id="cuatro"></label></p>
+                    <p>Tú 1/8 es de: <label id="ocho"></label></p>
+                    <p>Tú 1/16 es de: <label id="dieciseis"></label></p>
+                    <p>Tú 1/32 es de: <label id="treintados"></label></p>
+                    <p>Tú 1/64 es de: <label id="sesentaycuatro"></label></p>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="calculator" id="posts">
+            <p>
+                # *Lorem*
+                ipsum dolor sit amet consectetur 
+                adipisicing elit. Voluptatibus dolore ex 
+                facere laudantium, voluptates vitae nobis 
+                alias nesciunt consequuntur voluptas repellat 
+                esse ipsam possimus enim quod iure totam s
+                imilique eius?
+            </p>
+        </div> -->
+    </section>
+    <script src="script.js" type="text/javascript"></script>
+
+<footer>
+    <iframe id="footer" src="footer.html" frameborder="0"></iframe>
+</footer>
+</body>
+</html>
